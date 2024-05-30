@@ -1,0 +1,101 @@
+﻿@using PagedList.Mvc;
+@using PagedList;
+@model PagedList.IPagedList<ConsumeWebApi.Models.User>
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div>
+    @if (!string.IsNullOrEmpty(ViewBag.SuccessMessage) || !string.IsNullOrEmpty(ViewBag.ErrorMessage))
+    {
+        <div class="alert alert-success">
+            @ViewBag.SuccessMessage
+            @ViewBag.ErrorMessage
+        </div>
+    }
+</div>
+<div class="card">
+    <div class="card-header border-transparent">
+        <h3 class="card-title">Danh sách Khách hàng</h3>
+        <span class="mx-2"></span>
+
+        <a class="btn btn-primary" href="@Url.Action("GetAllUser", "_Users")">Tất cả</a>
+        <div class="float-right">
+            <!-- Search input -->
+
+            <form action="@Url.Action("Get_user_by_phonenumber", "_Users")" method="post">
+                @Html.AntiForgeryToken()
+                <div class="input-group">
+
+                    <input type="text" name="phonenumber" class="form-control" placeholder="Số điện thoại người dùng">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table m-0">
+                <thead>
+                    <tr>
+                        <th scope="col">Mã Khách hàng</th>
+                        <th scope="col">Tên khách hàng</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Địa chỉ</th>
+                        <th scope="col">Số điện thoại</th>
+                        <th scope="col">Mật khẩu</th>
+                        <th scope="col">Mã quyền</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @*  Lấy khách hàng nè *@
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><p class="mb-0 mt-4"> @item.UserId</p></td>
+
+                            <td><p class="mb-0 mt-4">@item.Name</p></td>
+                            <td><p class="mb-0 mt-4">@item.Email</p></td>
+                            <td><p class="mb-0 mt-4">@item.Address</p></td>
+                            <td><p class="mb-0 mt-4">@item.Phonenumber</p></td>
+                            <td><p class="mb-0 mt-4">@item.Password</p></td>
+                            <td><p class="mb-0 mt-4">@item.RoleId</p></td>
+
+                            @*<td>
+                        <a href="#" class="btn btn-primary mb-0 mt-4">Xem</a>
+                        </td>*@
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        @* Phân tràng nè *@
+        <div class="col-12">
+            <div class="pagination justify-content-center mt-5">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a href="#" class="page-link" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    @for (int i = 1; i <= Model.PageCount; i++)
+                    {
+                        <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                            <a href="@Url.Action("Index","_User", new { page = i })" class="page-link">@i</a>
+                        </li>
+                    }
+                    <li class="page-item">
+                        <a href="#" class="page-link" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

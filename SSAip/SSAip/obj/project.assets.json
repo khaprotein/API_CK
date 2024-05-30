@@ -545,6 +545,15 @@
           }
         }
       },
+      "PageList/1.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/PageList.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/PageList.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.5.0": {
         "type": "package",
         "dependencies": {
@@ -1886,6 +1895,20 @@
         "version.txt"
       ]
     },
+    "PageList/1.2.3": {
+      "sha512": "EjIqMC1h1AJJWFUM6hWHvT55pxxJ2V1OUincT+RSZm8Erp8cOWtg7JvAiwzkXPY8x//mGKqVSklaTPncfYfMxg==",
+      "type": "package",
+      "path": "pagelist/1.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/netcoreapp3.1/PageList.dll",
+        "pagelist.1.2.3.nupkg.sha512",
+        "pagelist.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.5.0": {
       "sha512": "FK05XokgjgwlCI6wCT+D4/abtQkL1X1/B9Oas6uIwHFmYrIO9WUD5aLC9IzMs9GnHfUXOtXZ2S43gN1mhs5+aA==",
       "type": "package",
@@ -2468,6 +2491,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.30",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.30",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.30",
+      "PageList >= 1.2.3",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -2538,6 +2562,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.30, )"
+          },
+          "PageList": {
+            "target": "Package",
+            "version": "[1.2.3, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

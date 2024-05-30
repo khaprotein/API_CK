@@ -75,6 +75,17 @@ namespace SSAip.Repository
             return null;
         }
 
+        public User CheckAccound(string email,string pass)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Email==email && u.Password==pass);
+            if (user != null)
+            {
+                return user;
+            }
+            return null;
+        }
+
+
         public ICollection<User> GetUserByName(string username)
         {
             var list = _context.Users.Where(u => u.Name.Contains(username)).ToList();
@@ -85,6 +96,14 @@ namespace SSAip.Repository
             return null;
         }
 
-       
+        public User GetByEmail(string email)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Email == email);
+            if (user != null)
+            {
+                return user;
+            }
+            return null;
+        }
     }
 }

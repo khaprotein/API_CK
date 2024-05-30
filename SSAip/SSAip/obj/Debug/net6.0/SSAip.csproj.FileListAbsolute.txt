@@ -67,3 +67,4 @@ D:\Web_API\API_CK\SSAip\SSAip\obj\Debug\net6.0\SSAip.pdb
 D:\Web_API\API_CK\SSAip\SSAip\obj\Debug\net6.0\SSAip.genruntimeconfig.cache
 D:\Web_API\API_CK\SSAip\SSAip\obj\Debug\net6.0\ref\SSAip.dll
 D:\Web_API\API_CK\SSAip\SSAip\bin\Debug\net6.0\AutoMapper.dll
+D:\Web_API\API_CK\SSAip\SSAip\bin\Debug\net6.0\PageList.dll

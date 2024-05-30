@@ -3,166 +3,96 @@
   "WorkspaceRootPath": "D:\\Web_API\\API_CK\\SSAip\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|d:\\web_api\\api_ck\\ssaip\\ssaip\\dto\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|solutionrelative:ssaip\\dto\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|d:\\web_api\\api_ck\\ssaip\\ssaip\\dto\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|solutionrelative:ssaip\\dto\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|d:\\web_api\\api_ck\\ssaip\\ssaip\\repository\\couponrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|solutionrelative:ssaip\\repository\\couponrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|d:\\web_api\\api_ck\\ssaip\\ssaip\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|solutionrelative:ssaip\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|d:\\web_api\\api_ck\\ssaip\\ssaip\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|solutionrelative:ssaip\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|d:\\web_api\\api_ck\\ssaip\\ssaip\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|solutionrelative:ssaip\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|d:\\web_api\\api_ck\\ssaip\\ssaip\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|solutionrelative:ssaip\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8D6371D-C790-4897-87B1-A4E1BB9003BC}|ConsumeWebApi\\ConsumeWebApi.csproj|d:\\web_api\\api_ck\\ssaip\\consumewebapi\\areas\\admin\\views\\_user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8D6371D-C790-4897-87B1-A4E1BB9003BC}|ConsumeWebApi\\ConsumeWebApi.csproj|solutionrelative:consumewebapi\\areas\\admin\\views\\_user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|d:\\web_api\\api_ck\\ssaip\\ssaip\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|solutionrelative:ssaip\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|d:\\web_api\\api_ck\\ssaip\\ssaip\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF68D1B7-486F-4E28-A590-673284D1E8F3}|SSAip\\SSAip.csproj|solutionrelative:ssaip\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8D6371D-C790-4897-87B1-A4E1BB9003BC}|ConsumeWebApi\\ConsumeWebApi.csproj|d:\\web_api\\api_ck\\ssaip\\consumewebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8D6371D-C790-4897-87B1-A4E1BB9003BC}|ConsumeWebApi\\ConsumeWebApi.csproj|solutionrelative:consumewebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8D6371D-C790-4897-87B1-A4E1BB9003BC}|ConsumeWebApi\\ConsumeWebApi.csproj|d:\\web_api\\api_ck\\ssaip\\consumewebapi\\areas\\admin\\controllers\\_usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8D6371D-C790-4897-87B1-A4E1BB9003BC}|ConsumeWebApi\\ConsumeWebApi.csproj|solutionrelative:consumewebapi\\areas\\admin\\controllers\\_usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 152,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InventoryDTO.cs",
-              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\DTO\\InventoryDTO.cs",
-              "RelativeDocumentMoniker": "SSAip\\DTO\\InventoryDTO.cs",
-              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\DTO\\InventoryDTO.cs",
-              "RelativeToolTip": "SSAip\\DTO\\InventoryDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T05:41:58.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CouponRespository.cs",
-              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\Repository\\CouponRespository.cs",
-              "RelativeDocumentMoniker": "SSAip\\Repository\\CouponRespository.cs",
-              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\Repository\\CouponRespository.cs",
-              "RelativeToolTip": "SSAip\\Repository\\CouponRespository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\ConsumeWebApi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ConsumeWebApi\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\ConsumeWebApi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ConsumeWebApi\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwB4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T05:41:55.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "SSAip\\Models\\OrderDetail.cs",
-              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\Models\\OrderDetail.cs",
-              "RelativeToolTip": "SSAip\\Models\\OrderDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T05:41:54.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryDTO.cs",
-              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\DTO\\CategoryDTO.cs",
-              "RelativeDocumentMoniker": "SSAip\\DTO\\CategoryDTO.cs",
-              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\DTO\\CategoryDTO.cs",
-              "RelativeToolTip": "SSAip\\DTO\\CategoryDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T05:41:52.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CartDTO.cs",
-              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\DTO\\CartDTO.cs",
-              "RelativeDocumentMoniker": "SSAip\\DTO\\CartDTO.cs",
-              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\DTO\\CartDTO.cs",
-              "RelativeToolTip": "SSAip\\DTO\\CartDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T05:41:51.612Z",
+              "WhenOpened": "2024-05-30T16:59:25.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BrandDTO.cs",
-              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\DTO\\BrandDTO.cs",
-              "RelativeDocumentMoniker": "SSAip\\DTO\\BrandDTO.cs",
-              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\DTO\\BrandDTO.cs",
-              "RelativeToolTip": "SSAip\\DTO\\BrandDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T05:41:50.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "SSAip\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "SSAip\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T14:29:16.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "SSAip\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "SSAip\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAkwBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T14:20:05.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SSAip\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\SSAip\\Controllers\\UserController.cs",
               "RelativeToolTip": "SSAip\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwCIAAABTAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T14:20:00.05Z",
+              "WhenOpened": "2024-05-30T16:58:34.885Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\ConsumeWebApi\\Areas\\Admin\\Views\\_User\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebApi\\Areas\\Admin\\Views\\_User\\Index.cshtml",
+              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\ConsumeWebApi\\Areas\\Admin\\Views\\_User\\Index.cshtml",
+              "RelativeToolTip": "ConsumeWebApi\\Areas\\Admin\\Views\\_User\\Index.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T16:50:55.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_UserController.cs",
+              "DocumentMoniker": "D:\\Web_API\\API_CK\\SSAip\\ConsumeWebApi\\Areas\\Admin\\Controllers\\_UserController.cs",
+              "RelativeDocumentMoniker": "ConsumeWebApi\\Areas\\Admin\\Controllers\\_UserController.cs",
+              "ToolTip": "D:\\Web_API\\API_CK\\SSAip\\ConsumeWebApi\\Areas\\Admin\\Controllers\\_UserController.cs",
+              "RelativeToolTip": "ConsumeWebApi\\Areas\\Admin\\Controllers\\_UserController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwCAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:01:56.12Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 99,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

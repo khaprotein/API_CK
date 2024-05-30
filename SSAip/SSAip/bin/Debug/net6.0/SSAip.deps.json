@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.30",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.30",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.30",
+          "PageList": "1.2.3",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -319,6 +320,14 @@
             "assetType": "runtime",
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "PageList/1.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/PageList.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
           }
         }
       },
@@ -737,6 +746,13 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "PageList/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EjIqMC1h1AJJWFUM6hWHvT55pxxJ2V1OUincT+RSZm8Erp8cOWtg7JvAiwzkXPY8x//mGKqVSklaTPncfYfMxg==",
+      "path": "pagelist/1.2.3",
+      "hashPath": "pagelist.1.2.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.5.0": {
       "type": "package",

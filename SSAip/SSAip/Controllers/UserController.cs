@@ -50,6 +50,37 @@ namespace SSAip.Controllers
             return Ok(user );
 
         }
+        [HttpGet]
+        [Route("GetUserLogin")]
+        public IActionResult GetUserLogin(string email,string pass)
+        {
+            var user = _mapper.Map<UserDTO>(_repository.CheckAccound(email, pass));
+
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            return Ok(user);
+
+        }
+
+        [HttpGet]
+        [Route("GetUserByEmail")]
+        public IActionResult GetUserByEmail(string email)
+        {
+            var user = _mapper.Map<UserDTO>(_repository.GetByEmail(email));
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            return Ok(user);    
+        }
+
+        [HttpPut]
+        [Route("PutUser")]
+        public IActionResult PutUser(UserDTO u)
+        {
+            var up = _repository.UpdateUser(u);
+            if (up==false) return BadRequest(ModelState);
+
+            return Ok();
+
+        }
 
     }
 }
